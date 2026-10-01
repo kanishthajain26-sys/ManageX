@@ -8,12 +8,12 @@ function UserDetails() {
 
   const { state } = useAppContext();
 
-  // Check if user already exists in our app state
+ 
   const localUser = state.users.find(
     (user) => String(user.id) === String(id)
   );
 
-  // If user exists locally, don't need API
+
   const apiUrl = localUser
     ? null
     : `https://jsonplaceholder.typicode.com/users/${id}`;
@@ -24,7 +24,7 @@ function UserDetails() {
     error,
   } = useFetch(apiUrl);
 
-  // Use local user first, otherwise API user
+
   const user = localUser || apiUser;
 
   if (loading && !localUser) {
@@ -64,7 +64,7 @@ function UserDetails() {
   return (
     <main className="user-details-page">
 
-      {/* BACK BUTTON */}
+  
 
       <button
         className="details-back"
@@ -74,8 +74,7 @@ function UserDetails() {
       </button>
 
 
-      {/* HEADER */}
-
+    
       <div className="details-header">
 
         <div className="details-avatar">
@@ -101,12 +100,12 @@ function UserDetails() {
       </div>
 
 
-      {/* DETAILS GRID */}
+    
 
       <div className="details-grid">
 
 
-        {/* CONTACT */}
+      
 
         <section className="details-card">
 
@@ -162,7 +161,7 @@ function UserDetails() {
         </section>
 
 
-        {/* ADDRESS */}
+       
 
         <section className="details-card">
 
@@ -218,7 +217,7 @@ function UserDetails() {
         </section>
 
 
-        {/* COMPANY */}
+     
 
         <section className="details-card">
 
@@ -265,7 +264,7 @@ function UserDetails() {
         </section>
 
 
-        {/* STATUS */}
+       
 
         <section className="details-card">
 

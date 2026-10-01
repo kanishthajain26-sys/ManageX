@@ -2333,7 +2333,7 @@ body.dark {
 }
 
 
-/* MAIN AREA */
+
 
 body.dark .main-area {
   background: #11131d;
@@ -2708,9 +2708,7 @@ body.dark .users-error p {
   transform: translateY(-1px);
 }
 
-/* =====================================================
-   USER DETAILS PAGE
-===================================================== */
+ 
 
 .user-details-page {
   min-height: calc(100vh - 76px);
@@ -2719,7 +2717,7 @@ body.dark .users-error p {
 }
 
 
-/* BACK BUTTON */
+
 
 .details-back {
   border: none;
@@ -2739,7 +2737,7 @@ body.dark .users-error p {
 }
 
 
-/* HEADER */
+
 
 .details-header {
   display: flex;
@@ -2832,7 +2830,7 @@ body.dark .users-error p {
 }
 
 
-/* CARD HEADER */
+
 
 .details-card-header {
   display: flex;
@@ -2874,7 +2872,7 @@ body.dark .users-error p {
 }
 
 
-/* DETAILS ITEMS */
+
 
 .details-items {
   display: flex;
@@ -2911,7 +2909,7 @@ body.dark .users-error p {
 }
 
 
-/* COMPANY */
+
 
 .company-content {
   padding-top: 22px;
@@ -2948,7 +2946,7 @@ body.dark .users-error p {
 }
 
 
-/* PROFILE STATUS */
+
 
 .profile-status {
   display: flex;
@@ -2992,7 +2990,7 @@ body.dark .users-error p {
 }
 
 
-/* LOADING */
+
 
 .details-loading {
   min-height: 500px;
@@ -3026,7 +3024,7 @@ body.dark .users-error p {
 }
 
 
-/* ERROR */
+
 
 .details-error {
   max-width: 500px;
@@ -3068,9 +3066,7 @@ body.dark .users-error p {
 }
 
 
-/* =====================================================
-   DARK MODE
-===================================================== */
+
 
 body.dark .user-details-page {
   background: #11131d;
@@ -3177,9 +3173,6 @@ body.dark .details-error p {
 }
 
 
-/* =====================================================
-   RESPONSIVE
-===================================================== */
 
 @media (max-width: 900px) {
 
